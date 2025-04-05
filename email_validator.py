@@ -1,8 +1,8 @@
 import re
 
-email = input("Enter a email address: ")
+email = input("Enter a Email Address: ")
 
-# Regular expression to match a valid email
+# Regular expression to match a valid Email
 email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
 
 if re.match(email_pattern, email):
